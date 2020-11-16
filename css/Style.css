@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: cornflowerblue;
+    font-family: Verdana;
+   
+}
+/* ESTILO PARA ELENCABEZADO*/
+.superior{
+    background: white;
+    overflow: hidden;
+    
+  
+    
+}
+.logo{
+    float: left;
+    padding: 60px;
+    
+}
+.container{
+    width: 1200px;
+    height: 20px;
+    margin: 45px auto;
+    background: white;
+    
+    
+    
+}
+/* ESTILO PARA EL MENU*/
+.menu{
+    float: center;
+    padding: 100px;
+    font-size: 20px;
+    
+}
+    
+.opciones li{
+    float: left;
+    list-style: none;
+
+}
+.opciones li a{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    border: 1px groove black;
+}  
+    
+
+
+.opciones li a:hover{
+    background: #70ceba;
+}
+
+/* ESTILO PARA EL Slider*/
+    
+.tamaño li{
+    width: 100%;
+    
+}
+.efect:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9);
+
+}
+
+/* ESTILOS PARA LOS PRODUCTOS Y SERVICIOS*/
+.cuerpo{
+    overflow: hidden;
+    background-color: white;
+}
+.titulo{
+    text-align: center;
+    padding: 20px 0 15px 0;
+    color: black;
+    font-size: 35px;
+}
+.caja{
+    float: left;
+    width: 380px;
+    margin: 8px;
+    border: 1px solid
+}
+.subtitulo{
+    background: #1551a1;
+    
+}
+.servicios{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.efecto:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+.contenido{
+    padding: 20px;
+    text-align: justify;
+}
+.boton{
+    color: black;
+    background: white;
+    cursor: pointer;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+.boton:hover{
+    background: #0c2c57;
+}
+/* ESTILOS PARA localización*/
+
+.localizacion{
+    padding: 20px 0 15px 0;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+}
+
+/* Pie de  página*/
+
+.pie{
+    overflow: hidden;
+    background: white;
+}
+.izquierda{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+.abajo{
+    
+    color:black;
+    text-align: justify;
+    font-size: 12px;
+    padding: 20px;
+}
+.derecha{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+.siguenos{
+    color:black;
+    text-align: center;
+    padding: 15px 0;
+}
